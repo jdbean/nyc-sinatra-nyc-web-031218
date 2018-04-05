@@ -10,6 +10,6 @@ if defined?(ActiveRecord::Migrator) && ActiveRecord::Migrator.needs_migration?
 end
 
 
-
+use FiguresController
 use LandmarksController
 run ApplicationController
